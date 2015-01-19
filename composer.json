@@ -1,0 +1,31 @@
+{
+    "name": "job-scheduler/worker",
+    "description": "Manage jobs",
+    "homepage": "https://github.com/job-scheduler/worker",
+    "keywords": ["job", "schedule", "linkorb", "queue", "worker"],
+    "type": "library",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Hongliang",
+            "email": "h.wang@linkorb.com",
+            "role": "Development"
+        },
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "JobScheduler\\Worker\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
